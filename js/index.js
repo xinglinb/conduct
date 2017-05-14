@@ -8,7 +8,7 @@ window.onload=function(){
 	});
 
     // $("#box1-top").addClass('animated');
-    $("#box1-top img").css("animation","Move1 0.8s ease-in-out forwards");
+    $("#box1-top img").addClass('animated fadeInDown')
     // $('body').oneTime('1s',function(){
     // 	$("#box1-z1 p").css("display","block");
     // 	$("#box1-z1 p").addClass('animated tada')
@@ -16,9 +16,9 @@ window.onload=function(){
     $(function(){
     	function aa(){
     		$("#box1-z1 p").css("display","block");
-    		$("#box1-z1 p").addClass('animated tada')
+    		$("#box1-z1 p").addClass('animated flipInY')
     	}
-    	setInterval(aa,1000); 
+    	setInterval(aa,800); 
     });
 
     $(function(){
@@ -26,7 +26,7 @@ window.onload=function(){
     		$("#box1-m2 img").css("display","block");
     		$("#box1-m2 img").addClass('animated slideInLeft')
     	}
-    	setInterval(bb,1500); 
+    	setInterval(bb,1300); 
     });
 
     $(function(){
@@ -34,7 +34,7 @@ window.onload=function(){
     		$("#box1-z2 p").css("display","block");
     		$("#box1-z2 p").addClass('animated slideInRight')
     	}
-    	setInterval(cc,1500); 
+    	setInterval(cc,1300); 
     });
 
     $(function(){
@@ -43,7 +43,7 @@ window.onload=function(){
     		})
     		// $("#box1-z3 p").addClass('animated slideInRight')
     	}
-    	setInterval(cc,2000); 
+    	setInterval(cc,1800); 
     });
 
     $(function(){
@@ -51,7 +51,7 @@ window.onload=function(){
     		$("#box1-z4 p").show();
     		$("#box1-z4 p").addClass('animated rollIn')
     	}
-    	setInterval(dd,2100); 
+    	setInterval(dd,2000); 
     });
 
 }
