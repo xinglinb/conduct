@@ -1,0 +1,18 @@
+html{
+	font-size: 75px
+}
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.box{
+	width: 750px;
+	height: 1335px;
+	/*background-image: url(../images/back.jpg);*/
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	transition: all 0.6s ease-in-out;
+	font-size: 1rem;
+}
