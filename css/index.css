@@ -26,47 +26,82 @@ html{
 }
 
 #box1 #box1-top{
-	background-image: url(../images/box1-m1.png);
-	background-size: 100% 100%;
-	background-repeat: no-repeat;
 	width: 7.5rem;
 	height: 1.5rem;
 	float: left;
 	margin-top: 1.2rem;
-	margin-left: 1.25rem
+	margin-left: 1.25rem;
 }
 
-#box1 .box1-z1{
+#box1 #box1-top img{
+	width: 7.5rem;
+	height: 1.5rem;
+}
+
+@keyframes Move1 {
+	0% {
+		margin-top:-0.6rem;
+		opacity: 0;
+	}
+	100% {
+		margin-top: 0rem;
+		opacity: 1;
+	}
+}
+
+
+#box1 #box1-z1{
 	color: #006235;
 	font-size: 18px;
 	width: 10rem;
+	height: 0.6rem;
 	margin-top: 0.3rem;
 	float: left;
 	font-weight: 500;
 	text-align: center;
-	font-family: 微软雅黑
+	font-family: 微软雅黑;
 }
 
-#box1 .box1-m2{
+#box1 #box1-z1 p{
+	display: none;
+}
+
+#box1 #box1-m2{
 	width: 6rem;
 	height: 0.6rem;
 	float: left;
 	margin-left: 2rem;
-	margin-top: 0.2rem
+	margin-top: 0.2rem;
+	
+	
 }
 
-#box1 .box1-z2{
+#box1 #box1-m2 img{
+	width: 6rem;
+	height: 0.6rem;
+	display: none;
+
+}
+
+#box1 #box1-z2{
 	color: #006235;
 	font-size: 13px;
 	width: 10rem;
+	height: 0.5rem;
 	margin-top: 0.1rem;
 	float: left;
 	font-weight: 500;
 	text-align: center;
-	font-family: 微软雅黑
+	font-family: 微软雅黑;
+	
+	
 }
 
-#box1 .box1-z3{
+#box1 #box1-z2 p{
+	display: none;
+}
+
+#box1 #box1-z3{
 	color: #006235;
 	font-size: 10px;
 	width: 10rem;
@@ -75,10 +110,15 @@ html{
 	float: left;
 	font-weight: 500;
 	text-align: center;
-	font-family: 微软雅黑
+	font-family: 微软雅黑;
+	
 }
 
-#box1 .box1-z4{
+#box1 #box1-z3 p{
+	display: none;
+}
+
+#box1 #box1-z4{
 	color: #006235;
 	font-size: 10px;
 	width: 9rem;
@@ -87,7 +127,12 @@ html{
 	float: left;
 	font-weight: 500;
 	text-align: right;
-	font-family: 微软雅黑
+	font-family: 微软雅黑;
+	
+}
+
+#box1 #box1-z4 p{
+	display: none;
 }
 
 #box2{
